@@ -1,0 +1,37 @@
+export default {
+  products: [
+    {
+      _id: 1,
+      name: "Black Goku Shirt",
+      image: "/images/d1.png",
+      category: "shirts",
+      price: 60,
+      brand: "Nike",
+      rating: 4.5,
+      numReviews: 10,
+      countInStock: 6,
+    },
+    {
+      _id: 2,
+      name: "Navy Dragonball Hoodie",
+      image: "/images/d2.png",
+      category: "hoodies",
+      price: 90,
+      brand: "Nike",
+      rating: 4.6,
+      numReviews: 13,
+      countInStock: 6,
+    },
+    {
+      _id: 3,
+      name: "Nike x Gyakusou Zoom Pegasus 36",
+      image: "/images/d3.jpg",
+      category: "shoes",
+      price: 160,
+      brand: "Nike",
+      rating: 4.6,
+      numReviews: 5,
+      countInStock: 6,
+    },
+  ],
+};
